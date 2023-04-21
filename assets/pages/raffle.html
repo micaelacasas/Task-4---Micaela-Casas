@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <title>Daflogui Cake</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../images/icon.png" class= "icon1" alt="icon">
+        </div>
+        <nav class="nav1">
+            <a href="../../index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./information.html">More Information</a>
+            <a href="./benefitsTips.html">Benefits and Tips</a>
+            <a href="#">Raffle</a>
+        </nav>
+    </header>
+    <main>
+        <section class="raffle">
+            <h1 class="titulo-daflogui">Daflogui Cake</h1>
+            <h3 class="aboutus1">You can participate in a raffle. The prize is  a coffee pot.</h3>
+            <div class="div-total">
+                <div class="img-end">
+                    <img class="cup-w-coffee" src="../images/cup-w-coffee.jpg" alt="cup-w-coffee">
+                    <img class="heart-coffee" src="../images/heart-coffee.jpg" alt="heart-coffee">
+                </div>
+                    <form action="./show_data.html" method= "get">
+                        <label class="label-name" for="name" >First Name</label>
+                        <input  class="label-name" type="text" id="name" name="nombre">
+                        <label  class="label-name" for="surname">Last Name</label>
+                        <input  class="label-name" type="text" id="surname" name="apellido">
+                        <label class="label-name" for="email">Email</label>
+                        <input class="label-name" type="text" id="email" name="email">
+                        <label class="label-name" for="coffee-pot">What color would you like the coffee por:</label>
+                        <select class="label-name" name="coffee-pot" id="coffee-pot">
+
+                            <option>Black</option>
+                            <option>Red</option>
+                            <option>Green</option>
+                            <option>White</option>
+                        </select>
+                        <label class="label-name" for="country">Country:</label>
+                        <select class="label-name" name="country" id="country">
+                            <option>Argentina</option>
+                            <option>Colombia</option>
+                            <option>Chile</option>
+                            <option>Brazil</option>
+                        </select>
+                        <div>
+                        <label class="label-name">Payment Options: </label>
+                        </div>
+                        <div class="label-name">
+                            <input type="radio" id="cash" name="payment" value="c">
+                            <label class="label-name" for="cash">Cash</label>
+                        </div>
+                        <div class="label-name">
+                            <input type="radio" id="credit-card" name="payment" value="cc">
+                            <label class="label-name" for="credit-card">Credit Cards</label>
+                        </div>
+                        <div class="label-name">
+                            <input type="radio" id="debit-card" name="payment" value="dc">
+                            <label class="label-name" for="debit-card">Debit Cards</label>
+                        </div>
+                        <div>
+                        <label class="label-name" for="services">Services</label>
+                            <input class="servicess" type="text" id="services" name="services">
+                        </div>
+                        <div class="label-name">
+                        <input type="checkbox" name="agree" id="agree" value="agree">
+                        <label class="label-name" for="agree">I accept terms and conditions. </label>
+                        </div>
+                        <input class="label-name1" type="submit" value="Send">
+                    </form>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <h4 class="createdby">Created by: Micaela Casas</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450944.2938146775!2d-83.04523879605112!3d27.99382617206405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1682027597284!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: beige;
+height: 20vh;
+width: 100%;
+}
+.nav1{
+    display: flex;
+    justify-content: start;
+}
+a{
+    margin-top: -60px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    color: rgb(34, 33, 33);
+    font-style: oblique;
+}
+.icon1{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    position: relative;
+    left: 85%;
+    margin-top: 20px;
+}
+.logo1{
+    width: 25vw;
+    display: flex;
+}
+.position1{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-daflogui{
+    left: 35%;
+    top: 2rem;
+    bottom: 2rem;
+    color: grey;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.aboutus1{
+    color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.makingcoffee{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+.p1{
+    color: gray;
+    background-color: beige;
+    margin-top: 10rem;
+    margin-left: 7rem;
+    margin-right: 13rem;
+    margin-bottom: 10rem;
+}
+.p2{
+    color: gray;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.p3{
+    color: gray;
+    display: flex;
+    justify-content:center;
+    margin-top: -100px;
+    margin-bottom: 20%;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+footer{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 60rem;
+    justify-content: space-around;
+}
+.createdby{
+    display: flex;
+    align-self: center;
+}
+.daflogui-cake{
+    position: relative
+}
+.pancakes{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    display: flex;
+    margin-left: 15%;
+}
+.twopeople{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    display: flex;
+    margin-left: 15%;
+}
+.icecream{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    display: flex;
+    margin-left: 15%;
+}
+.div-contact{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+.womancoffee{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+table,tr, th, td, tbody{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 43%;
+    width: 160px;
+    height: 100px;
+    margin-bottom: 60%;
+    background-color: black;
+    color: white;
+}
+ol{
+    margin-left: 2rem;
+}
+ul{
+    margin-left: 2rem;
+    list-style-type: disc;
+}
+body{
+    background-color: rgb(204, 202, 202);
+}
+.div00{
+    color: gray;
+    display: flex;
+}
+.lorem00{
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.section-bt{
+    color: gray;
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 20%;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: large;
+}
+.final-img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: -55px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mail-tel{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -180px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem;
+    margin-right: 15rem;
+    width: 40vw;
+}
+.img-end{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.cup-w-coffee{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.heart-coffee{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.div-total{
+    display: flex;
+    justify-content: space-around;
+}
+.raffle{
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    width: 150px; 
+    height: 150px;
+    display: flex;
+    align-content: start;
+    margin-bottom: 2rem;
+}
+.servicess{
+    display: flex;
+    width: 17rem;
+    height: 10rem;
+}
+.label-name{
+    display: flex;
+    width: 17rem;
+    color: rgb(87, 86, 86);
+}
+.label-name1{
+    display: flex;
+    width: 5rem;
+    color: rgb(87, 86, 86);
+}
+@media only screen and (max-width: 768px){
+    header{
+        width: 100vw;
+        height: 30vh;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5.6rem;
+        font-size: smaller;
+    }
+    .icon1{
+        min-width: 1rem;
+        min-height: 1rem;
+        margin-left: -5rem;
+    }
+    a{
+        margin-bottom: 1rem;
+        }
+    .makingcoffee{
+        display: flex;
+        width: 250px;
+        height: 200px;
+        margin: 2rem;
+    }
+    .p1{
+        display: flex;
+        margin: 0.5rem;
+        font-size: smaller;
+    }
+    .logo1{
+        object-fit: contain;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        font-size: smaller;
+        width: 15rem;
+        margin: 3rem;
+    }
+    .p2{
+        display: flex;
+        margin: 0.5rem;
+        font-size: smaller;
+    }
+    .pancakes{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        margin-left: 1rem;
+    }
+    .lorem00{
+        display: flex;
+        margin: 3rem;
+        font-size: smaller;
+    }
+    .twopeople{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        margin-left: 1rem;
+    }
+    .icecream{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        margin-left: 1rem;
+    }
+    .womancoffee{
+        display: flex;
+        width: 250px;
+        height: 250px;
+        margin-left: 1rem;
+        margin-top: -2rem;
+    }
+    .p3{
+        display: flex;
+        margin: 0.5rem;
+        font-size: smaller;
+    }
+    .div-contact{
+        display: flex;
+        height: 12rem;
+    }
+    .mail-tel{
+        display: flex;
+        font-size: smaller;
+        margin: 4rem;
+    }
+    table{
+        font-size: smaller;
+        margin-left: 5rem;
+    }
+    .section-bt{
+        display: flex;
+        font-size: smaller;
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    .final-img{
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+        margin: 2rem;
+        margin-left: 0rem;
+    }
+    ol{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .div-total{
+        display: flex;
+        width: 400px;
+        height: 400px;
+        margin-left: 4rem;
+    }
+    .cup-w-coffee{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+    }
+    .heart-coffee{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+    }
+    form{
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .label-name{
+        width: 120px;
+    }
+    iframe{
+        display: flex;
+        width:80px;
+        height:80px;
+        margin-bottom: 1rem;
+    }
+    .raffle{
+        display: flex;
+        height: 40rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .makingcoffee{
+        margin-left: 30%;
+    }
+    .p1{
+        width: 700px;
+        height: 40px;
+        margin-top: 5rem;
+    }
+    table{
+        margin-left: 20rem;
+    }
+    ol{
+        margin: 1rem;
+        margin-top: 5rem;
+    }
+    .section-bt{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .final-img{
+        margin: 1rem;
+        margin-top: 0;
+    }
+    .img-end{
+        margin-left: 20rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+}
